@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaBuild</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">NovaBuild</a>
+
+            <div class="hidden md:flex gap-6 items-center">
+                <a href="#features" class="hover:text-blue-600">Переваги</a>
+                <a href="#pricing" class="hover:text-blue-600">Тарифи</a>
+                <a href="#contact" class="hover:text-blue-600">Контакти</a>
+                <button id="contactBtn" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
+                    Зв'язатися
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="max-w-7xl mx-auto px-6 py-24 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 animate__animated animate__fadeInDown">
+            Будуємо цифрове майбутнє
+        </h1>
+
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-8 animate__animated animate__fadeInDown animate__delay-1s">
+            Створюємо сучасні сайти та цифрові рішення для твого бізнесу.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
+            <a href="#features" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+                Наші переваги
+            </a>
+            <a href="#pricing" class="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50">
+                Переглянути тарифи
+            </a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="max-w-7xl mx-auto px-6 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
+                Наші переваги
+            </h2>
+            <p class="text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                Чому обирають NovaBuild
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="0">
+                <div class="text-4xl mb-4">⚡</div>
+                <h3 class="text-xl font-bold mb-2">Швидкість</h3>
+                <p class="text-gray-600">Швидкі та оптимізовані сайти для комфортної роботи.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-4xl mb-4">🔒</div>
+                <h3 class="text-xl font-bold mb-2">Безпека</h3>
+                <p class="text-gray-600">Захист даних та надійність кожного проєкту.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-4xl mb-4">📊</div>
+                <h3 class="text-xl font-bold mb-2">Аналітика</h3>
+                <p class="text-gray-600">Допомагаємо відстежувати результати та розвиток.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-4xl mb-4">📱</div>
+                <h3 class="text-xl font-bold mb-2">Адаптивність</h3>
+                <p class="text-gray-600">Сайти зручні на телефонах, планшетах і комп'ютерах.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-4xl mb-4">🎨</div>
+                <h3 class="text-xl font-bold mb-2">Дизайн</h3>
+                <p class="text-gray-600">Сучасний вигляд і зрозумілий інтерфейс.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-4xl mb-4">🛠️</div>
+                <h3 class="text-xl font-bold mb-2">Підтримка</h3>
+                <p class="text-gray-600">Допомагаємо після запуску та оновлюємо проєкти.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
+                    Наші тарифи
+                </h2>
+                <p class="text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                    Обери план для свого проєкту
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-8 rounded-xl shadow-sm" data-aos="zoom-in" data-aos-delay="0">
+                    <h3 class="text-2xl font-bold mb-3">Start</h3>
+                    <p class="text-gray-600 mb-6">Для невеликих проєктів</p>
+                    <p class="text-4xl font-bold mb-6">2 000 грн</p>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ Односторінковий сайт</li>
+                        <li>✓ Адаптивний дизайн</li>
+                        <li>✓ Базова підтримка</li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                        Обрати тариф
+                    </a>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-600" data-aos="zoom-in" data-aos-delay="150">
+                    <p class="text-blue-600 font-semibold mb-2">Популярний</p>
+                    <h3 class="text-2xl font-bold mb-3">Pro</h3>
+                    <p class="text-gray-600 mb-6">Для бізнесу, що розвивається</p>
+                    <p class="text-4xl font-bold mb-6">5 000 грн</p>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ До 5 сторінок</li>
+                        <li>✓ Унікальний дизайн</li>
+                        <li>✓ SEO-оптимізація</li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                        Обрати тариф
+                    </a>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="text-2xl font-bold mb-3">Business</h3>
+                    <p class="text-gray-600 mb-6">Для великих проєктів</p>
+                    <p class="text-4xl font-bold mb-6">10 000 грн</p>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ До 10 сторінок</li>
+                        <li>✓ Розширений функціонал</li>
+                        <li>✓ Пріоритетна підтримка</li>
+                    </ul>
+                    <a href="#contact" class="block text-center bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                        Обрати тариф
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-3xl mx-auto px-6 py-20">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
+                Зв'яжися з нами
+            </h2>
+            <p class="text-gray-600" data-aos="fade-up" data-aos-delay="100">
+                Розкажи нам про свій проєкт
+            </p>
+        </div>
+
+        <form id="contactForm" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border">
+            <label for="name" class="block font-semibold mb-2">Ім'я</label>
+            <input id="name" type="text" placeholder="Твоє ім'я" required
+                class="w-full border rounded-lg px-4 py-3 mb-5">
+
+            <label for="email" class="block font-semibold mb-2">Email</label>
+            <input id="email" type="email" placeholder="email@example.com" required
+                class="w-full border rounded-lg px-4 py-3 mb-5">
+
+            <label for="message" class="block font-semibold mb-2">Повідомлення</label>
+            <textarea id="message" placeholder="Опиши свій проєкт" required
+                class="w-full border rounded-lg px-4 py-3 mb-5" rows="4"></textarea>
+
+            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                Надіслати повідомлення
+            </button>
+        </form>
+
+        <div id="successMsg" class="hidden bg-green-100 text-green-800 p-5 rounded-xl mt-6 text-center">
+            Повідомлення успішно підготовлено!
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-4">
+            <p class="text-xl font-bold text-white">NovaBuild</p>
+            <p>Створюємо сайти для твого майбутнього.</p>
+            <p>© 2026 NovaBuild</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 700,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 80
+        });
+
+        function animateCSS(element, animation) {
+            return new Promise((resolve) => {
+                element.classList.remove('animate__animated', 'animate__' + animation);
+                void element.offsetWidth;
+
+                element.classList.add('animate__animated', 'animate__' + animation);
+
+                element.addEventListener('animationend', function () {
+                    element.classList.remove('animate__animated', 'animate__' + animation);
+                    resolve();
+                }, { once: true });
+            });
+        }
+
+        const contactBtn = document.querySelector('#contactBtn');
+
+        contactBtn.addEventListener('mouseenter', function () {
+            animateCSS(contactBtn, 'tada');
+        });
+
+        const contactForm = document.querySelector('#contactForm');
+
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            if (contactForm.checkValidity()) {
+                contactForm.style.display = 'none';
+
+                const successMsg = document.querySelector('#successMsg');
+                successMsg.classList.remove('hidden');
+
+                animateCSS(successMsg, 'fadeInDown');
+            }
+        });
+    </script>
+
+</body>
+</html>
